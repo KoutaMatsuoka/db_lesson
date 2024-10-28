@@ -2,7 +2,7 @@ Q1
   `create table departments (
     -> department_id INT unsigned NOT NULL auto_increment primary key,
     -> name VARCHAR(20) NOT NULL,
-    -> created_at TIMESTAMP DEFAU　LT CURRENT_TIMESTAMP,
+    -> created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     -> updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP
     -> );`
   /*[ask]
